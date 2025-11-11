@@ -1,0 +1,31 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@web/components": ["libs/components/src/index.ts"],
+      "@web/services": ["libs/services/src/index.ts"],
+      "@web/hooks": ["libs/hooks/src/index.ts"],
+      "@web/utils": ["libs/utils/src/index.ts"],
+      "@web/context": ["libs/context/src/index.ts"],
+      "@web/admin": ["libs/apps/admin/src/index.ts"],
+      "@web/client": ["libs/apps/client/src/index.ts"],
+      "@web/admin/page/customers": ["libs/apps/admin/src/page/customers/index.tsx"],
+      "@web/admin/page/products": ["libs/apps/admin/src/page/products/index.tsx"],
+      "@web/admin/page/contracts": ["libs/apps/admin/src/page/contracts/index.tsx"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
